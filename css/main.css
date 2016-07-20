@@ -166,7 +166,7 @@ p {
 .hero {
   position: relative;
   /*background: url(http://www.philippefercha.com/cd/toggle-menu-bg.jpg) no-repeat center center fixed;*/
-  background-color: black;
+  /*background-color: black;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -248,5 +248,11 @@ p {
     -ms-transform: translateY(20px);
     transform: translateY(20px);
   }
+}
+
+#canvas{
+	position : absolute;
+	top : 0px; 
+	left : 0px;
 }
 
