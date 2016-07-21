@@ -20,3 +20,55 @@
 	/*text-align: center;*/
 
 }
+
+
+.grid-col-5of10{
+	width: 50%;
+	position: relative;
+}
+
+#canvas{
+	position : absolute;
+	top : 0px; 
+	left : 0px;
+}
+
+#about{
+  margin-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+}
+
+#projects{
+  margin-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+}
+
+#project1{
+	float: left;
+}
+
+#project2{
+	float: right;
+}
+
+.sec01{
+  text-align: center;
+}
+
+.sec02{
+  text-align: center;
+  /*margin-left:  40%;*/
+  /*margin-right: 20%;*/
+}
+
+.sec03{
+  margin: 0 auto;
+}
+
+.sec04{
+  margin: 0 auto;
+}
+
+
