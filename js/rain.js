@@ -17,7 +17,7 @@ var height = 0;
 
 window.onresize = function onresize() {
 	width = canvas.width = window.innerWidth;
-	height = canvas.height = window.innerHeight -100;
+	height = canvas.height = window.innerHeight * 0.85;
 }
 
 window.onresize();
@@ -180,7 +180,7 @@ function update() {
 			}
 			if (controls.Object == "Circle") {
 				if (umbrella < 20000) {
-					explosion(particulesactives.X, particulesactives.Y, particulesactives.couleur);
+					// explosion(particulesactives.X, particulesactives.Y, particulesactives.couleur);
 					particuleslocales.splice(i--, 1);
 				}
 			}

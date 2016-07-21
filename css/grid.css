@@ -1,0 +1,22 @@
+.grid-col-10of10{
+	width: 100%;
+	/*max-width: 940px;*/
+	/*margin:  auto;*/
+	position: relative;
+	/*padding: 0 2%;*/
+	/*float: center;*/
+	/*text-align: center;*/
+
+}
+
+
+.grid-col-6of10{
+	width: 60%;
+	/*max-width: 940px;*/
+	/*margin:  auto;*/
+	position: relative;
+	/*padding: 0 2%;*/
+	/*float: center;*/
+	/*text-align: center;*/
+
+}
