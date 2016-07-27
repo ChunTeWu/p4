@@ -3,6 +3,7 @@
 	/*max-width: 940px;*/
 	/*margin:  auto;*/
 	position: relative;
+	/*vertical-align:middle;*/
 	/*padding: 0 2%;*/
 	/*float: center;*/
 	/*text-align: center;*/
@@ -99,6 +100,29 @@
 
 .sec04 a:visited{
 	color: white;
+}
+
+.head_img{
+  position: relative; 
+}
+
+.project_pull{
+  display: block;
+  margin: 0 auto;
+/*  width: 26px;
+  height: 46px;*/
+
+  position: absolute;
+  bottom: 120px;
+  left: 30%;
+  /*margin-left: -26px;*/
+
+}
+
+
+.head_img {
+
+
 }
 
 

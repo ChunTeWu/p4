@@ -128,7 +128,6 @@
 }
 
 .product_collage{
-    /*padding-left: 10em;*/
-    /*float: center;*/
-    margin-left: 3.5vw;
+    text-align: center;
 }
+

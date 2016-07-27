@@ -9,7 +9,7 @@ window.setTimeout(callback, 1000/60);
 };
 })();
 
-var canvas = document.getElementById('canvas');
+var canvas = document.getElementById('rain');
 var ctx = canvas.getContext('2d');
 
 var width = 0;
@@ -17,7 +17,7 @@ var height = 0;
 
 window.onresize = function onresize() {
 	width = canvas.width = window.innerWidth;
-	height = canvas.height = window.innerHeight * 0.85;
+	height = canvas.height = window.innerHeight -100;
 }
 
 window.onresize();
