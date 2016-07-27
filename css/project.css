@@ -11,10 +11,10 @@
 #rig li {
     display: inline-block;
     *display: inline;/*for IE6 - IE7*/
-    width: 35%;
+    width: 44%;
     vertical-align: top;
     box-sizing: border-box;
-    margin: 10px;
+    margin: 20px;
     padding: 0;
 }
 
@@ -79,17 +79,24 @@
     width: 100%;
     text-align: center;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 26px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: .1em;
     line-height: 160%;
     top: 40%;
-    color: white;
+    color: #e8f380;
     opacity: 0;
     filter: alpha (opacity=0);/*For older IE*/
     transform: translateY(-20px);
     transition: all .3s;
+}
+
+.rig-text_content{
+    color: white;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 #rig li:hover .rig-text {
@@ -123,5 +130,5 @@
 .product_collage{
     /*padding-left: 10em;*/
     /*float: center;*/
-    margin-left: 13.5vw;
+    margin-left: 12.5vw;
 }
