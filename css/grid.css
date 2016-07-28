@@ -119,10 +119,17 @@
 
 }
 
-
-.head_img {
-
-
+/*------------project pull-------------*/
+#overview {
+  padding-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+  letter-spacing: 0.01em;
 }
 
+#member{
+  padding-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+}
 
