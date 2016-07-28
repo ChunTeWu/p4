@@ -171,6 +171,7 @@ h1 {
   line-height: 1.8;
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
 
 p {
@@ -452,4 +453,13 @@ p {
 #project_pull h2 {
   margin: 0;
   font-size: 32px;
+}
+
+#overview {
+
+  /*background-color: blue;*/
+}
+
+#member{
+
 }

@@ -133,3 +133,29 @@
   margin-right: 20%;
 }
 
+#process{
+  text-align: center;
+}
+
+#concept{
+  padding-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+}
+
+#game_map{
+  padding-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+}
+
+#decision_tree{
+  padding-top: 5em;
+  margin-left:  20%;
+  margin-right: 20%;
+}
+
+#concept_img{
+  text-align: center;
+}
+
