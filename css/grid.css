@@ -127,10 +127,16 @@
   letter-spacing: 0.01em;
 }
 
+img#overview {
+  text-align: center;
+}
+
+
 #member{
   padding-top: 5em;
   margin-left:  20%;
   margin-right: 20%;
+
 }
 
 #process{
@@ -158,4 +164,9 @@
 #concept_img{
   text-align: center;
 }
+
+#instruction{
+  text-align: center;
+}
+
 
