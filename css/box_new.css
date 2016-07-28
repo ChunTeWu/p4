@@ -1,0 +1,126 @@
+/*body {
+  background: linear-gradient(to bottom, #cee7d4 0%, #f5f4c9 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+  perspective: 1000px;
+}*/
+
+.cube {
+  position: relative;
+  margin: calc(45vh - 50px) auto;
+  width: 150px;
+  height: 150px;
+  transform-style: preserve-3d;
+  transform: rotateX(-15deg) rotateY(45deg);
+  transition: all .75s ease;
+}
+
+.face {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  /*border: $size / 100 solid #ddd;*/
+  box-sizing: border-box;
+}
+
+.face.top {
+  transform: rotateY(180deg) rotateX(90deg) translate3d(0, 0, 75px);
+}
+
+.face.bottom {
+  transform: rotateY(180deg) rotateX(90deg) translate3d(0, 0, -75px);
+}
+
+.face.front {
+  transform: translate3d(0, 0, 75px);
+}
+
+.face.back {
+  transform: translate3d(0, 0, -75px);
+}
+
+.face.left {
+  transform: rotateY(90deg) translate3d(0, 0, -75px);
+}
+
+.face.right {
+  transform: rotateY(90deg) translate3d(0, 0, 75px);
+}
+
+.grass .back {
+  background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
+  background-size: 100% 100%;
+}
+
+.grass .front {
+  background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
+  background-size: 100% 100%;
+}
+
+.grass .left {
+  background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
+  background-size: 100% 100%;
+}
+
+.grass .right {
+  background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
+  background-size: 100% 100%;
+}
+
+.grass .top {
+  background: url("https://t5.rbxcdn.com/e3ebf0f90e67c42bed2e75704a467a47");
+  background-size: 100% 100%;
+}
+
+.grass .bottom {
+  background: url(http://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg);
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+#origin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 5s;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+#loader {
+  position: absolute;
+  top: 10vh;
+  left: 0px;
+  width: 99vw;
+  height: 100vh;
+}
+
+#loading {
+  font-size: 75px;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  position: relative;
+  top: calc(45vh - 150px);
+  text-align: center;
+  z-index: 1;
+  transition: all .75s ease;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 5s;
+  animation-name: spin;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotateX(-3deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(-3deg) rotateY(360deg);
+  }
+}

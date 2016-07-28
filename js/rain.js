@@ -9,7 +9,7 @@ window.setTimeout(callback, 1000/60);
 };
 })();
 
-var canvas = document.getElementById('rain');
+var canvas = document.getElementById('canvas');
 var ctx = canvas.getContext('2d');
 
 var width = 0;
