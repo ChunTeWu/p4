@@ -8,7 +8,7 @@
 
 .cube {
   position: relative;
-  margin: calc(45vh - 150px) auto;
+  margin: calc(45vh - 50px) auto;
   width: 150px;
   height: 150px;
   transform-style: preserve-3d;
