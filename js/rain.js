@@ -16,7 +16,7 @@ var width = 0;
 var height = 0;
 
 window.onresize = function onresize() {
-	width = canvas.width = window.innerWidth;
+	width = canvas.width = window.innerWidth-25;
 	height = canvas.height = window.innerHeight -100;
 }
 

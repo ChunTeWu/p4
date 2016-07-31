@@ -24,56 +24,56 @@
   box-sizing: border-box;
 }
 
-.face.boxtop {
+.face.top {
   transform: rotateY(180deg) rotateX(90deg) translate3d(0, 0, 75px);
 }
 
-.face.boxbottom {
+.face.bottom {
   transform: rotateY(180deg) rotateX(90deg) translate3d(0, 0, -75px);
 }
 
-.face.boxfront {
+.face.front {
   transform: translate3d(0, 0, 75px);
 }
 
-.face.boxback {
+.face.back {
   transform: translate3d(0, 0, -75px);
 }
 
-.face.boxleft {
+.face.left {
   transform: rotateY(90deg) translate3d(0, 0, -75px);
 }
 
-.face.boxright {
+.face.right {
   transform: rotateY(90deg) translate3d(0, 0, 75px);
 }
 
-.grass .boxback {
+.grass .back {
   background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
   background-size: 100% 100%;
 }
 
-.grass .boxfront {
+.grass .front {
   background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
   background-size: 100% 100%;
 }
 
-.grass .boxleft {
+.grass .left {
   background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
   background-size: 100% 100%;
 }
 
-.grass .boxright {
+.grass .right {
   background: url(https://t5.rbxcdn.com/3ee9f2b9178eae5fbc7bfdec1d78f4d7);
   background-size: 100% 100%;
 }
 
-.grass .boxtop {
+.grass .top {
   background: url("https://t5.rbxcdn.com/e3ebf0f90e67c42bed2e75704a467a47");
   background-size: 100% 100%;
 }
 
-.grass .boxbottom {
+.grass .bottom {
   background: url(http://static.planetminecraft.com/files/resource_media/screenshot/1236/pack_3530346.jpg);
   background-size: 100% 100%;
   text-align: center;
@@ -94,7 +94,7 @@
   position: absolute;
   top: 10vh;
   left: 0px;
-  width: 100%;
+  width: 99vw;
   height: 100vh;
 }
 
