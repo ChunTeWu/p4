@@ -41,7 +41,7 @@ var controls = {
 	rain : 2,
 	Object : "Nothing",
 	alpha : 1,
-	color : 200,
+	color : 100,
 	auto : false,
 	opacity : 1,
 	saturation : 100,
@@ -51,7 +51,7 @@ var controls = {
 	green : 0,
 	blue : 0,
 	multi : false,
-	speed : 2
+	speed : 1
 };
 
 function Rain(X, Y, nombre) {
@@ -61,7 +61,7 @@ function Rain(X, Y, nombre) {
 	while (nombre--) {
 		particules.push( 
 		{
-			vitesseX : (Math.random() * 0.25),
+			vitesseX : (Math.random() * 0),
 			vitesseY : (Math.random() * 9) + 1,
 			X : X,
 			Y : Y,
