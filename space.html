@@ -1,152 +1,237 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/grid.css" rel="stylesheet">
-	<!-- <link href="css/gallery.css" rel="stylesheet"> -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/main.css" rel="stylesheet">
+<link href="css/typing.css" rel="stylesheet">
+<link href="css/box.css" rel="stylesheet">
+<link href="css/project.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> -->
 
 
-
-
-
-
-
-
-	<title>Space Traveller</title>
+	<title>Pull</title>
 </head>
 
 <body>
-	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
-	  
-	<header class="main_h">
+    <script type="text/javascript" src="js/layout.js"></script>
+
+
+    <header class="main_h">
 
 	    <div class="row">
-	        <a class="logo" href="index.html"><img src="img/home.png"></a>
+	        <a class="logo" href="index.html"><img src="img/home.png" ></a>
 
 	        <nav>
 	            <ul>
-	                <li><a href="index.html#about">About</a></li>
+	                <li><a href="index.html#to_about">About</a></li>
 	                <li><a href="index.html#projects">Projects</a></li>
 	                <li><a href="index.html#contact">Contact</a></li>
 	            </ul>
 	        </nav>
 
-	    </div> <!-- / row -->
+	    </div> 
 
 	</header>
 
+    <div class="head"  id = "project_pull">
 
+    	<h1><span>PULL</span></h1>
+		<h2>Unreal Engine Project</h2>
+		<i class="fa fa-angle-down animated bounce" id="to_about"></i>
 
-
-	<div class="head" id = "project_space">
-
-
-		<h1><span>SPACE TRAVELLER</span></h1>
-		<h2>Unity Project</h2>
-
-
-	    <div class="mouse">
-	        <span></span>
-	    </div>
 
 	</div>
 
-	<!-- content of the page -->
-	<!-- section1 -->
-	<div class="grid-col-10of10" >
-		<div class="grid-col-6of10" id="overview">
-		    <h1 class="sec01">Overview</h1>
 
-		    <p>Space Traveller is a 2D platformer game base on a space themed narrative which brings the players into an interactive side scrolling space adventure. The main objective is to explore each stage of the game and bring the Spaceman back home to his family. Each stage will have different objectives, as well as finding hidden objectives and to find the hidden exits of each level. Player is able to choose their own exits which may change the outcome of the narrative. As players explore each level they will encounter aliens, asteroids, teleporters, moving platforms, and spring platforms. These will either help, or hinder, players throughout each level. The premise of the story will revolve around the pilot of a crash landed spaceship. The player will be presented with several introductory scenes which will brief them on the background of the narrative. These scenes will be displayed in retro style of pictures to tell the story. Players will be able to flip through the scenes at their own pace, allowing them the time to read and enjoy the images. New scenes will appear after every completed stage to narrate the next portion of the narrative as well as notifying the players of their next objective. Players will be able to control the narrative by completing different objectives within certain stages. </p>
+
+  </div>
+
+
+    <div class="grid-10-of-10" >
+    	<div class="grid-welcom" id="about_pull">
+    	 <h1>Overview</h1>
+
+		    <p>Pull is a <b>third-person action/puzzle-platformer game</b> made by <b>Unreal Engine 4</b> that narratively takes place in a fantasy dream settings, filled with abundantly clever puzzle-solving sequences, cartoonish-like visual aesthetics and compelling narrative storyline. Distinct elements from other puzzle-platformer (i.e. environment-based interactions) and action (i.e. ability-based gameplay) game genres inspired the development of the game, however providing a slightly different approach to provide a unique gameplay experience. It intends to mainly attract puzzle and/or platform gamers, as well as action gamers who enjoy dynamic gameplay mechanics. There is no specific gender and domain targeted, thus making the game easily accessible and have all gamer types open to enjoy the unique gameplay mechanics.</p>
 		</div>
+    </div>
 
-		
-	</div>
 
-	<div class="grid-col-10of10" id="instruction">
-			<img src="img/instruction.jpg">
-		</div>
+
+
 
 	<!-- section2 -->
 	<div class="grid-col-10of10">
-		<div class="grid-col-6of10" id="member">
-		    <h1 class="sec01">My Role</h1>
+		<div class="grid-welcom" id="role">
+		    <h1>My Role</h1>
 
-		    <p>For this project I took up the role of the project manager, coder and the narrative designer. I was responsible for distributing tasks, setting up project schedules and controlling the game’s quality. As the main coder of the group, I am also responsible to import our game mechanic using java script. As the narrative designer, I also need to decide our game narrative.</p>
+		    <p>For this project I took up the role of the group’s <b>level designer and part of the visual artist</b>. I was responsible for deciding the in-game content as well as part of the 3D models in the game. I used Maya for building our 3D models, which it can directly import the model into Unreal and worked very well. For level building, I used the default building engine in Unreal, which I can easily adjust the models and associate them with the Unreal blueprint. </p>
 		</div>
 
 		<div class="grid-col-10of10" id="process">
-			<img src="img/unity.jpg">
+
+
+			<!-- image1 -->
+			<a class="lightbox" href="#process1">
+			   <img src="img/process1.jpg" alt="process">
+			</a> 
+			<div class="lightbox-target" id="process1">
+			   <img src="img/process1.jpg" alt="process">
+			   <a class="lightbox-close" href="#role"></a>
+			</div>
+
+
+			<!-- image2 -->
+			<a class="lightbox" href="#process2">
+			   <img src="img/process2.jpg" alt="process">
+			</a> 
+			<div class="lightbox-target" id="process2">
+			   <img src="img/process2.jpg" alt="process">
+			   <a class="lightbox-close" href="#role"></a>
+			</div>
+
+
+			<!-- image3 -->
+			<a class="lightbox" href="#process3">
+			   <img src="img/process3.jpg" alt="process">
+			</a> 
+			<div class="lightbox-target" id="process3">
+			   <img src="img/process3.jpg" alt="process">
+			   <a class="lightbox-close" href="#role"></a>
+			</div>
+
+
+			<!-- image4 -->
+			<a class="lightbox" href="#process4">
+			   <img src="img/process4.jpg" alt="process">
+			</a> 
+			<div class="lightbox-target" id="process4">
+			   <img src="img/process4.jpg" alt="process">
+			   <a class="lightbox-close" href="#role"></a>
+			</div>
+
+
+			<!-- image5 -->
+			<a class="lightbox" href="#process5">
+			   <img src="img/process5.jpg" alt="process">
+			</a> 
+			<div class="lightbox-target" id="process5">
+			   <img src="img/process5.jpg" alt="process">
+			   <a class="lightbox-close" href="#role"></a>
+			</div>
+
+
+
 
 		</div>
 
 	</div>
 
-
-
-
-
-
-	<!-- section3 -->
+	<!-- section3-->
 	<div class="grid-col-10of10">
-		<div class="grid-col-6of10" id="concept">
-		    <h1 class="sec01">Narrative Arc</h1>
+		<div class="grid-welcom" id="concept">
+		    <h1>Game Concept</h1>
 
-		    <p>The narrative begins with the spaceship crashing onto a planet. Player is given time to get use to the controls as well as get through a fairly simple stage with simple objectives. As the players progress through the narrative, the stages will get progressively harder. The players encounter alien lifeforms which will try to kill them. and platforms which will move, or bounce them around. Level 3 will mark a change in the game as a whole. Not only being the first foldback in our narrative, this levels style will also change to keep the players interested. Although it is essentially the same game with the same gameplay, players will get the feeling that it is different. This level will also prepare the player for the climax in level 5. Level 5 will be the climax of the game. This level will be similar to level 3, except it will be a lot harder. This portion will be the climax of the narrative as it will be the player’s last chance to return the character home. The resolution will be consisted of the transitional scenes which will give the ending to the game. Either it being a game over, or the player safely returning home on their planet.</p>
+		    <p>The overall structure and flow of the game is relatively simple. Players begin their navigation in the game from the Main Menu, with other options such as Resolution to change the screen resolution of the game, or to simply quit the game. Then players are introduced to the game with a narrative dialogue that can be heard. Subsequent actions include a general tutorial and hints of the game and introductions of the game mechanics that players will have to use to play. After, players provide their own choice to either explore the game environment to collect the orbs, or get into the Primary Gameplay Mode that the game essentially revolves around in. Players have been given the choice to explore, and eventually have to use the abilities for the puzzle-solving or platforming elements of the game. If players fall or get hit by the enemies in the game, a respawn system has been established. However 3 deaths conclude in a Game Over, and bring players back to the Main Menu. If players are able to successfully proceed to a gate, they must find a way to open it in order to progress to the next section of the game.</p>
 		</div>
 
-		<div class="grid-col-10of10" id="concept_img">
-			<img src="img/narrative.jpg">
+		<div class="grid-col-10of10" id="concept_content">
+
+
+			<!-- image1 -->
+			<a class="lightbox single_img" href="#concept_img">
+			   <img src="img/concept.jpg" alt="concept_img">
+			</a> 
+			<div class="lightbox-target" id="concept_img">
+			   <img src="img/concept.jpg" alt="process">
+			   <a class="lightbox-close" href="#concept"></a>
+			</div>
 
 		</div>
-
-
 
 	</div>
+
 
 	<!-- section4 -->
 	<div class="grid-col-10of10">
-		<div class="grid-col-6of10" id="game_map">
-		    <h1 class="sec01">Major Beats</h1>
+		<div class="grid-welcom" id="game_map">
+		    <h1>Game Map Overview</h1>
 
-		    <p>In the beginning levels there is an introduction of the gameplay and level mechanics that players would have to be familiar with. However the beats begins to rise, as enemies (many of which will have a narrative significance) will challenge players to either confront or avoid. If players are capable to compose themselves, the confrontations would not be too difficult. The large gaps in between do provide the exploration phases, perhaps providing some narrative background or room for players to find some collectible items. In the middle section of the level, players’ skills are challenged through enemies and difficult platforms. The boss area in the middle level also provides a greater intensity in conflict, however there is a following break before re-engaging players through challenges again. This is also a section where a boss level would be present, thus increasing the narrative beat as the boss would have a significant role in the character’s narrative background. Following such event between each level are narrative cutscenes to provide the storytelling created by the team. The beat finally is in high intensity once players have reached the final boss platform.</p>
+		    <p>The overall level design of the game is set on one entire setting, with each of the sections separated by the gates placed within the game. The main character begins at the bottom of the level, exemplified by the “Star”. The platforms surround a large tree, and players advance through a critical path to reach the end. The narrative aspects of the game are placed in certain areas and importance to inform the character and players the backstory of the game. The purple section shows the introductions of abilities, as well as additional information that players will require—though most of the instructions needed have been provided through pop-up spatial UI on Level 1. Not only does Level 1 introduce the “Attach” and “Attract” ability, but the level also provides additional information that players will need to know in order to progress with the level, thus creating dynamic gameplay. Enemies are introduced on Level 2 to provide dynamic conflict for players. In addition to the “Attach” ability-based platforming, moving platforms have also been added to provide dynamic gameplay. There is a mini-boss section in which players will have to overcome without attack the boss. Finally, a final boss awaits players that narratively resolves the game.</p>
 		</div>
 
-		<div class="grid-col-10of10" id="process">
-			<img src="img/space1.jpg">
-			<img src="img/space2.jpg">
-			<img src="img/space3.jpg">
+		<div class="grid-col-10of10" id="game_map_content">
+
+
+			<!-- image1 -->
+			<a class="lightbox single_img" href="#game_map_img">
+			   <img src="img/map.jpg"  alt="game_map_img">
+			</a> 
+			<div class="lightbox-target" id="game_map_img">
+			   <img src="img/map.jpg" alt="game_map_img">
+			   <a class="lightbox-close" href="#game_map"></a>
+			</div>
 
 		</div>
 
+	</div>
 
+
+	<!-- section5 -->
+	<div class="grid-col-10of10">
+		<div class="grid-welcom" id="decision">
+		    <h1>Obstacle Decision Tree</h1>
+
+		    <p>The game possesses main and subsequent objectives that players have the option to do as they progress throughout the levels. Since the game is highly based on level progression, the initial question players would have is if an obstacle is presented in front of them to prevent level advancement. If so, then their approach would depend on the type of obstacle it is; otherwise they may consider exploring the area to search for an item, or generally enjoy exploring. Players’ actions will differ if it is an obstruction or an enemy; if there is an enemy they would have to analyze on distance and their surrounding environment, then take action based on what they do or do not have. Conversely if it is an obstruction, they have to determine whether they can easily get through it using an ability, or they would have to explore to fill their Gravity bar in order to use such ability. Finding the orbs would provide sub-objectives for the players for not only rewarding them, but also allow them to use the ability more comfortably. This obstacle and decision tree do apply in all three sections of the game, with the narrative being implemented in some of these nodes, that generally lead them to the final goal of the game.</p>
+		</div>
+
+		<div class="grid-col-10of10" id="decision_content">
+
+
+			<!-- image1 -->
+			<a class="lightbox single_img" href="#decision_img">
+			   <img src="img/decision.jpg" alt="decision_img">
+			</a> 
+			<div class="lightbox-target" id="decision_img">
+			   <img src="img/decision.jpg" alt="decision_img">
+			   <a class="lightbox-close" href="#decision"></a>
+			</div>
+
+		</div>
 
 	</div>
 
 
-	</div>
+
+
+
+
+    
 
 
 
 
 
-	<!-- section4 -->
-	<div class="grid-col-10of10" id="footer">
-
-	    	<!-- <h1 class="sec03">Follow Me</h1> -->
-	    	<div class="sec04">
-		    	<a href="#">Chun Te Wu | </a>
-		    	<a href="http://www.github.com">Github Repository | </a> 
-		    	<a href="http://www.github.com">Style Guide | </a> 
-		    	<a href="http://www.github.com">Reference</a>
-	    	</div>
-
+    <div class="footer">
+	    <a href="#"><i class="fa fa-angle-up animated bounce"></i></a>
+	    <div>
+	    	<a href="http://www.github.com">Github Repository | </a> 
+			<a href="http://www.github.com">Style Guide | </a> 
+			<a href="http://www.github.com">Reference</a>
+	    </div>
+	    
+    </div>
 
 
 
-	</div>
+	
+
+
+
 
 
 </body>
