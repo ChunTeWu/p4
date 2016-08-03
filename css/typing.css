@@ -3,6 +3,15 @@
   font-size: 6em;
   letter-spacing: 0;
 }
+
+@media (max-width: 450px) {
+  .typing {
+    font-size: 4em;
+  }
+
+}
+
+
 .typing > * {
   /*margin-left: -6px;*/
   font-weight: 700;
@@ -66,10 +75,3 @@
     opacity: 0;
   }
 }
-/* CSS for centering demo */
-/*body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}*/
