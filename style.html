@@ -2,13 +2,12 @@
 <html>
 
   <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <meta charset="utf-8">
-    <title>Style Guide</title>
-
-    <link href="css/main.css" rel="stylesheet">
-
-
+  <title>Style Guide</title>
   </head>
 
   <body>
@@ -34,108 +33,52 @@
 
     <h1>Style Guide</h1>
 
-    <section>
-      <div class="navigation-wrapper">
-        <div class="navigation-button">
-          <a href="#interactive_elements"><h2>Interactive Elements</h2></a>
-        </div>
-        <div class="navigation-button">
-          <a href="#text_elements"><h2>Text elements</h2></a>
-        </div>
-        <div class="navigation-button">
-          <a href="#combined_elements"><h2>Combined Elements</h2></a>
-        </div>
-        <div class="navigation-button">
-          <a href="wireframe.html"><h2>User-flows</h2></a>
-        </div>
-        <div class="navigation-button">
-          <a href="#citation"><h2>Citations</h2></a>
-        </div>
-
-      </div>
-    </section>
-
-
-
-
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
-
-      <!-- Default Button styling section -->
-      <section id="interactive_elements">
-
-        <h2>Navigation Button</h2>
-
-
-
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <a class="button-nav" href="#">Default Button</a>
-      </section>        
-
+   
 
        <!-- IN-TEXT LINK // -->
       <section>
-        <h2>In-text link</h2>
-
+        <h2>Navigation</h2>
         <h3>CSS selector:</h3>
-        <p>.link-nav</p>
+        <p>product_collage</p>
+        <div>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a class="link-nav"> log in&lt;/a&gt;</code>
+          <div class="style_guide_nav product_collage">
+            <ul id="rig">
+              <li>
+                  <a class="rig-cell" href="pull.html">
+                  <img class="rig-img" src="img/pull_square.jpg" alt="product_list">
+                  <span class="rig-overlay"></span>
+                  <span class="rig-text">PULL <span class="rig-text_content">Unreal Project</span></span>
+                  </a>
+              </li>
 
-        <h3>Rendered element:</h3>
-        <p>
-          Hi, guest,<a class="link-nav" href="#"> log in </a> or <a class="link-nav" href="#">register</a>.
-        </p>
+              <li>
+                  <a class="rig-cell" href="space.html">
+                  <img class="rig-img" src="img/space_traveller_square.jpg" alt="product_list">
+                  <span class="rig-overlay"></span>
+                  <span class="rig-text">Space Traveller<span class="rig-text_content">Unity Project</span></span>
+                  </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </section>
 
-
-
-      <!-- RESET & SUBMIT BUTTON // -->
+      <!-- Color // -->
       <section>
-        <h2>Submit/Reset Buttons</h2>
+        <h2>Color</h2>
 
-        <h3>CSS selector:</h3>
-        <p>.submit-button input[type='button'] & .reset-button input[type='button']</p>
+        <div>
+          <img src="img/color.jpg" alt="color">
 
-        <h3>Sample code:</h3>
-        <code>&lt;input type='button' value='Submit'&lt;/a&gt;</code>
-        <code>&lt;input type='button' value='Reset'&lt;/a&gt;</code>
 
-        <h3>Rendered element:</h3>
-        <a class="submit-button" href="#">Submit</a>
-        <a class="reset-button" href="#">Reset</a>
+
+        </div>
       </section>
 
 
 
-      <!-- TEXT INPUT // -->
-      <section>
-        <h2>Text Input Field</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.input-field input[type='name']</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;input type="name" placeholder='Name'&lt;/a&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <input type="password" placeholder="Enter your password">
-      </section>
-
-
-
-
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
 
       <!-- HEADING // -->
       <section id="text_elements">
@@ -174,110 +117,11 @@
 
 
 
-      <!-- BULLETED LIST // -->
-      <section>
-        <h2>Bulleted Lists</h2>
-
-        <h3>CSS selector:</h3>
-        <p>&lt;ul&gt;, &lt;li&gt;</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ul&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;/ul&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <ul>
-          <li>
-            Item 1
-          </li>
-          <li>
-            Item 2
-          </li>
-          <li>
-            Item 3
-          </li>
-        </ul>
-      </section>
-
-
-      <!-- NUMBER LIST // -->
-      <section>
-        <h2>Numbered Lists</h2>
-
-        <h3>CSS selector:</h3>
-        <p>&lt;ol&gt;, &lt;li&gt;</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;ol&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;/ol&gt;</code>
-
-        <h3>Rendered element:</h3>
-        <ol>
-          <li>
-            Item 1
-          </li>
-          <li>
-            Item 2
-          </li>
-          <li>
-            Item 3
-          </li>
-        </ol>
-      </section>
 
 
 
 
-    <!-- COMBINED ELEMENTS SECTION // -->
 
-      
-
-      <!-- NAVIGATON BAR // -->
-      <section id="combined_elements">
-        <h2>Main Navigation</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.navigation-button</p>
-
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#combined-elements" class="navigation-button"&gt;Coffee&lt;/a&gt;</code>
-        <code>&lt;a href="#combined-elements" class="navigation-button"&gt;Mugs&lt;/a&gt;</code>
-        <code>&lt;a href="#combined-elements" class="navigation-button"&gt;Coffee Machines&lt;/a&gt;</code>
-
-
-        <h3>Rendered element:</h3>
-
-          <div class="navigation-wrapper">
-            <div class="navigation-button">
-              <a href="#combined-elements"><h2>Coffee</h2></a>
-            </div>
-            <div class="navigation-button">
-              <a href="#combined-elements"><h2>Mugs</h2></a>
-            </div>
-            <div class="navigation-button">
-              <a href="#combined-elements"><h2>Coffee Machines</h2></a>
-            </div>
-          </div>
-      </section>
-
-
-      
-      <!-- PRODUST LIST // -->
-      <section>
-        <h2>Product Listing</h2>
-
-        <h3>CSS selector:</h3>
-        <p>.grid-col-x of10</p>
-
-        <h3>Rendered element:</h3>
-
-          
-
-            <figure class=".grid-col-10of10 image" id="item_board">
-              <img src="img/coffee(2).jpg" height="200" alt="product1">
-                <h2>Aroma Blend</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
-                <p id="price">$ 19.99 <a class="add-button" href="#">Add</a></p>
-            </figure>
-      </section>
 
     
        <!-- CITATION LIST // -->
@@ -288,30 +132,29 @@
         <h3>Font</h3>
           <ul>
             <li>
-              Matteson, Steve. Designer. 2011. Open Sans [Font]. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans" target="_blank">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a>
+              Montserrat, Julieta Ulanovsky. Designer. 2011. Open Sans [Font]. Retrieved from <a href="https://www.google.com/fonts/specimen/Montserrat" target="_blank">[https://www.google.com/fonts/specimen/Montserrat]</a>
+            </li>
+            <li>
+              Pixelade, Astramat. Designer. 2005. [Font]. Retrieved from <a href="http://www.dafont.com/pixelade.font?text=Pixelade" target="_blank">[http://www.dafont.com/pixelade.font?text=Pixelade]</a>
             </li>
           </ul>
 
-        <h3>Image</h3>
+        <h3>Code</h3>
           <ul>
             <li>
-              Aroma Blend Coffee. (2015). [Image]. Retrieved from <a href="https://www.pinterest.com/pin/450852612670820760/">[URL]</a>.
+              Minecraft Loader, Truman Heberle. Retrieved from <a href="https://www.pinterest.com/pin/450852612670820760/">[https://www.pinterest.com/pin/450852612670820760/]</a>.
             </li>
 
             <li>
-              Cafe Fino. (2010). [Image]. Retrieved from <a href="http://www.globalsources.com/gsol/I/Aluminum-foil/p/sm/1058245623.htm#1058245623">[URL]</a>.
+             Pure CSS typing animation for a user on /r/web_design, Mitchel van Eijgen. Retrieved from <a href="https://codepen.io/mvaneijgen/pen/akqjgw">[https://codepen.io/mvaneijgen/pen/akqjgw]</a>.
             </li>
 
             <li>
-              Ceramic Mug. (2016). [Image]. Retrieved from <a href="http://www.corporateselections.com/ProductDetails/?productId=5401647&tab=Tile&referrerPage=ProductResults&refPgId=509008552&referrerModule=PRDREB">[URL]</a>.
+              Slide-out Scrolling Gallery, Teegan Lincoln. Retrieved from <a href="https://codepen.io/teeganlincoln/pen/MaNxBv">[https://codepen.io/teeganlincoln/pen/MaNxBv]</a>.
             </li>
 
             <li>
-              Black Dip Coffee Mug. (2016). [Image]. Retrieved from <a href="http://www.cb2.com/black-dip-coffee-mug/s463792">[URL]</a>.
-            </li>
-
-            <li>
-              Ratio Eight Edition Coffee Machine. (2015). [Image]. Retrieved from <a href="https://www.pinterest.com/pin/556476097684446054/">[URL]</a>.
+             Rain, Delapierre Rodolphe. Retrieved from <a href="https://codepen.io/Sheepeuh/pen/cFazd">[https://codepen.io/Sheepeuh/pen/cFazd]</a>.
             </li>
           </ul>
       
